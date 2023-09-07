@@ -14,6 +14,6 @@ char work(char activity){
     return code_fiscal;
 }
 
-int revenu_mensuel(int revenu_annuel){
+float revenu_mensuel(float revenu_annuel){
     return revenu_annuel/12;
 }
