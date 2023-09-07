@@ -1,16 +1,17 @@
 
-#include <stdio.h>
-
 char work(int activity){
-    char code_fiscal;
+    //char code_fiscal;
+    int bucheron;
+    int comptable;
+    int others;
+
     if (activity == 5){
-        code_fiscal = 'B';
+        return 'B';
     }else if (activity == 2){
-        code_fiscal = 'C';
-    }else{
-        code_fiscal =  'A';
+        return 'C';
+    }else if (activity==1 || activity==3 || activity==4){
+        return 'A';
     }
-    return code_fiscal;
 }
 
 float revenu_mensuel(float revenu_annuel){

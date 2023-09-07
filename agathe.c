@@ -6,18 +6,18 @@
 #include <stdio.h>
 
 double taxes (float revenus) {
-    double taxe ;
+    double TAXE ;
     if (revenus >= 15000 && revenus < 50000) {
-        taxe = revenus * 1.3 - revenus ;
+        TAXE = revenus * 1.3 - revenus ;
     } else if (revenus >= 50000) {
-        taxe = revenus * 1.5- revenus;
+        TAXE = revenus * 1.5- revenus;
     } else{
-        taxe = revenus * 1.1- revenus; }
-    return taxe ;
+        TAXE = revenus * 1.1- revenus; }
+    return TAXE ;
     }
 
 
 int ages (int age){
-    int year ;
-    age = 2023 - year ;
+    int years ;
+    age = 2023 - years ;
     return age; }
