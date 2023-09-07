@@ -1,12 +1,11 @@
-//
-// Created by agath on 07/09/2023.
-//
 
-char work(char activity){
+#include <stdio.h>
+
+char work(int activity){
     char code_fiscal;
-    if (activity == "bucheron"){
+    if (activity == 5){
         code_fiscal = 'B';
-    }else if (activity == "comptable"){
+    }else if (activity == 2){
         code_fiscal = 'C';
     }else{
         code_fiscal =  'A';
