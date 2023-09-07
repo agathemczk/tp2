@@ -8,8 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/agath/Documents/GitHub/tp2/tp2/agathe.c" "CMakeFiles/tp2.dir/agathe.c.obj" "gcc" "CMakeFiles/tp2.dir/agathe.c.obj.d"
-  "C:/Users/agath/Documents/GitHub/tp2/tp2/lilou.c" "CMakeFiles/tp2.dir/lilou.c.obj" "gcc" "CMakeFiles/tp2.dir/lilou.c.obj.d"
   "C:/Users/agath/Documents/GitHub/tp2/tp2/main.c" "CMakeFiles/tp2.dir/main.c.obj" "gcc" "CMakeFiles/tp2.dir/main.c.obj.d"
   )
 

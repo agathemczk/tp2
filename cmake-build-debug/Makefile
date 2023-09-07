@@ -128,54 +128,6 @@ tp2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tp2.dir\build.make CMakeFiles/tp2.dir/build
 .PHONY : tp2/fast
 
-agathe.obj: agathe.c.obj
-.PHONY : agathe.obj
-
-# target to build an object file
-agathe.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tp2.dir\build.make CMakeFiles/tp2.dir/agathe.c.obj
-.PHONY : agathe.c.obj
-
-agathe.i: agathe.c.i
-.PHONY : agathe.i
-
-# target to preprocess a source file
-agathe.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tp2.dir\build.make CMakeFiles/tp2.dir/agathe.c.i
-.PHONY : agathe.c.i
-
-agathe.s: agathe.c.s
-.PHONY : agathe.s
-
-# target to generate assembly for a file
-agathe.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tp2.dir\build.make CMakeFiles/tp2.dir/agathe.c.s
-.PHONY : agathe.c.s
-
-lilou.obj: lilou.c.obj
-.PHONY : lilou.obj
-
-# target to build an object file
-lilou.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tp2.dir\build.make CMakeFiles/tp2.dir/lilou.c.obj
-.PHONY : lilou.c.obj
-
-lilou.i: lilou.c.i
-.PHONY : lilou.i
-
-# target to preprocess a source file
-lilou.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tp2.dir\build.make CMakeFiles/tp2.dir/lilou.c.i
-.PHONY : lilou.c.i
-
-lilou.s: lilou.c.s
-.PHONY : lilou.s
-
-# target to generate assembly for a file
-lilou.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tp2.dir\build.make CMakeFiles/tp2.dir/lilou.c.s
-.PHONY : lilou.c.s
-
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -209,12 +161,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... tp2
-	@echo ... agathe.obj
-	@echo ... agathe.i
-	@echo ... agathe.s
-	@echo ... lilou.obj
-	@echo ... lilou.i
-	@echo ... lilou.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

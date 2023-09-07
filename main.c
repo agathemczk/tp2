@@ -18,11 +18,11 @@ int main() {
     scanf("%f", &revenu_annuel);
 
     code_fiscal = work(job);
-    years = ages(years);
+    years = age(years);
     revenumensuel = revenu_mensuel(revenu_annuel);
     taxe = taxes(revenu_annuel);
 
-    printf("Bienveue, nos services constates que vous avez %d ans.\n Vous devrez payer cette annee %.2lf.\n Votre code d activite est %c.\n Votre revenu mensuel est de %.2f.\n",years,taxe,code_fiscal,revenumensuel);
+    printf("Bienvenue, nos services constatent que vous avez %d ans.\n Vous devrez payer cette annee %.2lf euros.\n Votre code d activite est %c.\n Votre revenu mensuel est de %.2f euros.\n",years,taxe,code_fiscal,revenumensuel);
 
     return 0;
 }

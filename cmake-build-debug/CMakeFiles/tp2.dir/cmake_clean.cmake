@@ -1,8 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/tp2.dir/agathe.c.obj"
-  "CMakeFiles/tp2.dir/agathe.c.obj.d"
-  "CMakeFiles/tp2.dir/lilou.c.obj"
-  "CMakeFiles/tp2.dir/lilou.c.obj.d"
   "CMakeFiles/tp2.dir/main.c.obj"
   "CMakeFiles/tp2.dir/main.c.obj.d"
   "libtp2.dll.a"

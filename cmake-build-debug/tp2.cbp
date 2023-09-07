@@ -76,12 +76,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/agath/Documents/GitHub/tp2/tp2/agathe.c">
-			<Option target="tp2"/>
-		</Unit>
-		<Unit filename="C:/Users/agath/Documents/GitHub/tp2/tp2/lilou.c">
-			<Option target="tp2"/>
-		</Unit>
 		<Unit filename="C:/Users/agath/Documents/GitHub/tp2/tp2/main.c">
 			<Option target="tp2"/>
 		</Unit>
